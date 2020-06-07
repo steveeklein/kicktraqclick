@@ -21,7 +21,7 @@ const clickIt = () => {
         `${moment().add(24,'hours').format('MMMM Do YYYY')} at ${moment().format('h:mm a')}`, '\n\n');
     }
   });
-  cron.schedule(`${moment().minutes()} ${moment().hour()} * * *`, () => { //this is cron syntax for every at current hour and minute
+  cron.schedule(`${moment().minutes()} ${moment().hour()} * * *`, () => { //this is cron syntax for every day at current hour and minute
     clickIt();
   })
 }

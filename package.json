@@ -1,7 +1,7 @@
 {
   "name": "kicktraqclick",
-  "version": "1.0.0",
-  "description": "automagically clicks kicktraq link once day!",
+  "version": "1.1.0",
+  "description": "automagically clicks kicktraq link once a day!",
   "main": "app.js",
   "bin": "bin.js",
   "scripts": {
