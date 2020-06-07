@@ -1,0 +1,15 @@
+{
+  "name": "kicktraqclick",
+  "version": "1.0.0",
+  "description": "automagically clicks kicktraq link once day!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "steve klein",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.26.0",
+    "request": "^2.88.2"
+  }
+}
